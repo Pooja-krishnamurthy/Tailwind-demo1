@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="bg-purple-900 text-white flex justify-between">
+      <img
+        class="w-12 h-12 pt-3 px-3 rounded-2xl"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAAH60lEQVR4nO3dS2xcZx2G8TN3ezxjj2Mncez4ksRxHBJHbQlFAbroBQW1VUFCSOmiQoINrVqWCAlUaKUuWCAhgRCobIAFi24QQipS0iACSZtIbeK0aUvSOthxbE98nfGMx3M7p4tWLJBTfWN8evzN+/zWn2f+m8fnzLmGXjl5xgFUhYMeAAgSAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUAaAUBaNOgBtqMdo+2pvuRn+Y1u1a0Wa+tLldzNwmf5vSCADQx/vX/gwZ6gvr1edmvr9VqxVilUSwvl/FQxe3lpfnw5qHmaGwFsO5FEOJIIJzpibU5r54jT+6Wdo6eGyiuV1Vtri+/nbv5tpnB7LegZmwcB2CGRiScy8e6xzPAT/cs38tPnsh/8ZTrooZoBAVgmkgh3H810H80Mf2Ng8vTMe3/6T9AT2Y2jQLZK9bYe+faBky+fGPzqnqBnsRgB2C3dn/z89w+f+PFYtDUS9CxWIgDrhWOhvq/seuRX9+881hn0LPYhgCaR6kue+NHYvq/1Bj2IZQigecQ7Yvd8b+TA43uDHsQmBNBUIi2Rse8Msx0wx2HQzXOr7uRrc1vyUaGwE46FI/FwPB2Pp6MtOxKJdGxz/52iycix7x4szJY4eWyCADbPc503f/GeTx/eOdI++HBP1+GOjn2pcKyxFGLp6H3Pjb723KVaqe7TeE2DALap5ev55et5x3G6j2ZGvjmw+76uSKKBDNJ7k/f/4MiFF676NmCT4DfAdrfwzsqFF65eeHF85YPVhv5wzxe6Bx4O7JI+WxCAHbJvLp159tLU3+cc1/RPQtHQ4VP7/ByqGRCATS797NrEq7fNG0j3J0dPDfk5kfUIwDJv/fL96fN3zNcPPsRe0KchAPu88dLbuQnTG8fS/W1DJzktcFcEYKXxl2+YHuIMOXsf2OXzOBYjACvdubw0e3HBcHHnwXZfh7EaAdjq6u9uVAs1k5WJjhj3DNwNAdiqtFBeuLZiuHgXV0rfBQFYbOqs6ZVI7QNtvk5iLwKw2K1/ZNeXKiYrW7oSfg9jKQKwW3GuZLIsnuKir40RgN0KM0bPCIq0RHaMcixoAwRgt7XsuuHKjqGUr5NYigDsVpg12gVyHCfWxl7QBgjAbuW80Y9gx3GirQSwAQKwWyVfNVwZjoZ8ncRSBGC3REfccGVtndsjN0AAdktkjANYM7puQg0B2C3V22q4srxqurMkhQDs1rbbKADP9e68teT3MDYiALsZbgFqxXo5xxZgAwRgt7Y9RgFU2P+5CwKw2IEn9sbTMZOVxazp+TI1BGCx/gd2G65cMb6HWA0B2Krrcx2dI0bXt3muN/P6vN/zWIoAbHXkqf2GD0sszpYW3jG9d0wNAVhp/2N9O8dM73JcfDfn6zBWIwD7pPqSh5/cFzK7tsetuhOv3vZ7JHsRgH2++MOjrd2mtzguvptjC/ApCMAyD/78eOfBtOFir+7d+POUr/PYjmvErbHzWOe9zxxqH2rg+Q53rizPvG76/CxNBGCHe585NPBQT6yRe9sr+eqV3173b6TmQADbWqoveehbgz3Hu8x3+j/hOh/+dXp1qujPXM2DALadzHC653hXZn+qfTCV6m1t9AVhH5t5Y/7aHya2fLbmQwCbF46FHv39l7fs06KhUDQcbYk09C6wDeUmChde5O1gRghg80LhUHJ3S9BT/K/8ZPFfz18JegprcBi0qeQni+d/Ml5aKAc9iDXYAjSP+fHl8z8d593ADSGAZuBW3Mmzc/69tbuJEYD1Vm+tXfvjh9PnGnhzHv6LACy2vlS5dS47/hvOdm0eAVjIc4rZ0tylxcu//nfQo1iPAGxSXqnkbhYmz85Nnp4NepYmQQDbmlf3yrlqabG8OlWcuTjPjv6WI4DN8+pefqsutvEct+55NdetebX1ejlfLS+Xi3Pr0//M8jwfXxHA5rk17/TTF4OeAv8XzgRDGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAGgFAWuiVk2eCngEIDFsASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASCMASPsIQcqhSjYnS0cAAAAASUVORK5CYII="
+      />
+      <ul class="px-28 py-4 flex space-x-11 justify-end">
+        <li class="cursor-pointer">Home</li>
+        <li class="cursor-pointer">About</li>
+        <li class="cursor-pointer">Catalogue</li>
+        <li class="cursor-pointer">Contact</li>
+      </ul>
+    </nav>
+    <main class="bg-purple-100 h-auto flex ">
+      <div class="py-40 pl-10">
+        <div class="text-4xl">Best Phones in town</div>
+        <p class="p-2 w-1/3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga cum
+          possimus et nemo ipsam, facere tempore quibusdam beatae quo, porro
+          magni rerum optio quae, quas ut accusantium ex! Veniam, aliquam!
+        </p>
+        <button class="w-28 h-8 mr-4 rounded-3xl bg-purple-400 text-black hover:bg-purple-900 hover:text-white cursor-pointer">
+          Buy Now
+        </button>
+        <button class="w-28 h-8 mt-4 rounded-3xl bg-purple-400 text-black hover:bg-purple-900 hover:text-white cursor-pointer">
+          Contact Us  
+        </button>
+        </div>
+      <div class="flex items-center">
+        <img class="h-64 pr-60 "
+          src="https://tse1.mm.bing.net/th?id=OIP.rUpfFPNp46Rx_hqcIRpW9gHaH6&pid=Api&rs=1&c=1&qlt=95&w=105&h=113"
+        />
+      </div>
+    </main>
+  </body>
+</html>
